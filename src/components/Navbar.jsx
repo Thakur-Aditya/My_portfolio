@@ -40,7 +40,7 @@ const Navbar = () => {
         </ul>
         <div className="sm:hidden ">
           <img
-            src={menuToggle ? menu : close}
+            src={!menuToggle ? menu : close}
             alt=""
             onClick={() => setMenuToggle(!menuToggle)}
           />
