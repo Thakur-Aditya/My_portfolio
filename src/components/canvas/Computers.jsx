@@ -11,7 +11,7 @@ const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
   return (
     <>
-      <hemisphereLight intensity={2} groundColor="black" />
+      <hemisphereLight intensity={1.5} groundColor="black" />
       <pointLight intensity={1} />
       <spotLight
         position={[-20, 50, 10]}
@@ -51,6 +51,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
+      style={{width:'100%',height:'100%'}}
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >

@@ -78,7 +78,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
-          <label htmlFor="" className="flex flex-col">
+          <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
               type="text"
@@ -89,7 +89,7 @@ const Contact = () => {
               placeholder="What's your name?"
             />
           </label>
-          <label htmlFor="" className="flex flex-col">
+          <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Email</span>
             <input
               type="email"
@@ -100,7 +100,7 @@ const Contact = () => {
               placeholder="What's your Email"
             />
           </label>
-          <label htmlFor="" className="flex flex-col">
+          <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
               rows={7}

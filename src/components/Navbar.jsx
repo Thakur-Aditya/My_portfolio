@@ -46,7 +46,7 @@ const Navbar = () => {
           />
           <div
             className={`${
-              !menuToggle ? "flex" : "hidden"
+              menuToggle ? "flex" : "hidden"
             } black-gradient absolute top-20 min-w-[140px] right-0 mx-4 my-2 z-10 rounded-xl px-3 `}
           >
             <ul className="list-none flex sm:hidden justify-end items-start flex-col gap-1">
