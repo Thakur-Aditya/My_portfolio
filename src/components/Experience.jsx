@@ -22,18 +22,33 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className="w-[60%] h-[60%] object-contain"
+            className="w-[100%] h-[100%] object-contain"
           />
         </div>
       }
     >
       <div>
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
-        <p className="text-secondary text-[16px] font-semibold " style={{margin:0}} >{ experience.company_name}</p>
+        <p
+          className="text-secondary text-[20px] font-semibold "
+          style={{ margin: 0 }}
+        >
+          <div
+            className="cursor-pointer"
+            onClick={() => {
+              window.open(experience.company_url, "_blank");
+            }}
+          >
+            {experience.company_name}
+          </div>
+        </p>
       </div>
-      <ul className="mt-5 ml-5 space-y-2 list-disc"  >
+      <ul className="mt-5 ml-5 space-y-2 list-disc">
         {experience.points.map((point, index) => (
-          <li key={`experience-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider">
+          <li
+            key={`experience-point-${index}`}
+            className="text-white-100 text-[14px] pl-1 tracking-wider"
+          >
             {point}
           </li>
         ))}
@@ -89,8 +104,6 @@ const ExperienceCard = ({ experience }) => {
 // };
 
 const Experience = () => {
-  
-
   return (
     <>
       <motion.div variants={textVariant()}>

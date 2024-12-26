@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles.js";
 import { navLinks } from "../constants/index.js";
-import { logo, menu, close } from "../assets/index.js";
+import { logo, menu, close, aditya_logo } from "../assets/index.js";
 import { li } from "framer-motion/client";
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -20,9 +20,13 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img
+            src={aditya_logo}
+            alt="logo"
+            className="w-9 h-9 object-contain"
+          />
           <p className="text-white text-[18px] font-bold cursor-pointer">
-            Thakur Aditya 
+            Thakur Aditya
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -37,6 +41,14 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li>
+            <a
+              href="/public/Aditya_Singh_CV_December_2024.pdf"
+              download="Aditya Singh Resume"
+            >
+              My Resume
+            </a>
+          </li>
         </ul>
         <div className="sm:hidden ">
           <img
@@ -53,8 +65,8 @@ const Navbar = () => {
               {navLinks.map((nav) => (
                 <li
                   onClick={() => {
-                    setActive(nav.title) 
-                    setMenuToggle(!menuToggle)
+                    setActive(nav.title);
+                    setMenuToggle(!menuToggle);
                   }}
                   key={nav.id}
                   className={`${

@@ -18,6 +18,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import aditya_logo from "./aditya_logo.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
@@ -29,9 +30,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
-export {
+import Traceworks from "./company/Traceworks.png";
+import ashwinSir from "./Ashwin Sir.png"
+export {aditya_logo,
   logo,
+  ashwinSir,
+  Traceworks,
   backend,
   creator,
   mobile,
