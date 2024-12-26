@@ -41,7 +41,11 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          <li>
+          <li
+            className={`
+                 text-secondary
+               hover:text-white font-medium text-[18px]`}
+          >
             <a
               href="/public/Aditya_Singh_CV_December_2024.pdf"
               download="Aditya Singh Resume"
@@ -71,11 +75,21 @@ const Navbar = () => {
                   key={nav.id}
                   className={`${
                     active === nav.title ? "text-white" : "text-secondary"
-                  } font-poppins font-medium cursor-pointer text-[16px]`}
+                  } font-poppins hover:text-white font-medium cursor-pointer text-[16px]`}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li className={`
+                 text-secondary
+               hover:text-white font-medium text-[18px]`} >
+                <a
+                  href="/public/Aditya_Singh_CV_December_2024.pdf"
+                  download="Aditya Singh Resume"
+                >
+                  My Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
