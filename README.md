@@ -33,9 +33,8 @@ Visit My Portfolio - https://thakuraditya.in
 
 ### Additional Libraries/Tools:
 - **Three.js** (for 3D visuals)
-<!-- - **Axios** (for API requests) -->
-- **Framer Motion** (for navigation)
-- **Vercel** (for deployment, if applicable)
+- **Framer Motion** (for animations)
+- **Vercel** (for deployment)
 
 ---
 
