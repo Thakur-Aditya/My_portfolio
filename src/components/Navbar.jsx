@@ -47,7 +47,7 @@ const Navbar = () => {
                hover:text-white font-medium text-[18px]`}
           >
             <a
-              href="/public/Aditya_Singh_CV_December_2024.pdf"
+              href="/Aditya_Singh_CV_December_2024.pdf"
               download="Aditya Singh Resume"
             >
               My Resume
@@ -84,7 +84,7 @@ const Navbar = () => {
                  text-secondary
                hover:text-white font-medium text-[18px]`} >
                 <a
-                  href="/public/Aditya_Singh_CV_December_2024.pdf"
+                  href="/Aditya_Singh_CV_December_2024.pdf"
                   download="Aditya Singh Resume"
                 >
                   My Resume
