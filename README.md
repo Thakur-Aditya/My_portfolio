@@ -4,8 +4,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## 🖥️ Live Demo
 
-[Visit My Portfolio](https://yourwebsiteurl.com)  
-*(Replace with the actual deployed URL of your portfolio)*
+Visit My Portfolio - https://thakuraditya.in
 
 ---
 
