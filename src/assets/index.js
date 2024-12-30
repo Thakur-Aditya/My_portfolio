@@ -31,8 +31,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import Traceworks from "./company/Traceworks.png";
-import ashwinSir from "./Ashwin Sir.png"
-export {aditya_logo,
+import ashwinSir from "./Ashwin Sir.png";
+import realEstateApp from "./realEstateApp.png";
+import AnimatedPortfolio from "./3dAnimatedPortfolio.png";
+export {
+  aditya_logo,
+  AnimatedPortfolio,
+  realEstateApp,
   logo,
   ashwinSir,
   Traceworks,
