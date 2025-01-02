@@ -34,7 +34,10 @@ import Traceworks from "./company/Traceworks.png";
 import ashwinSir from "./Ashwin Sir.png";
 import realEstateApp from "./realEstateApp.png";
 import AnimatedPortfolio from "./3dAnimatedPortfolio.png";
+import latestResume from "./adityaSinghResumeJan2025.pdf";
+
 export {
+  latestResume,
   aditya_logo,
   AnimatedPortfolio,
   realEstateApp,

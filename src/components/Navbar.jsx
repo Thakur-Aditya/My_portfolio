@@ -2,7 +2,13 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles.js";
 import { navLinks } from "../constants/index.js";
-import { logo, menu, close, aditya_logo } from "../assets/index.js";
+import {
+  logo,
+  menu,
+  close,
+  aditya_logo,
+  latestResume,
+} from "../assets/index.js";
 import { li } from "framer-motion/client";
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -47,7 +53,7 @@ const Navbar = () => {
                hover:text-white font-medium text-[18px]`}
           >
             <a
-              href="/Aditya_Singh_CV_December_2024.pdf"
+              href="/adityaSinghResumeJan2025.pdf"
               download="Aditya Singh Resume"
             >
               My Resume
@@ -80,9 +86,11 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
-              <li className={`
+              <li
+                className={`
                  text-secondary
-               hover:text-white font-medium text-[18px]`} >
+               hover:text-white font-medium text-[18px]`}
+              >
                 <a
                   href="/Aditya_Singh_CV_December_2024.pdf"
                   download="Aditya Singh Resume"
