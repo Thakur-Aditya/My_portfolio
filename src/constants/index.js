@@ -27,7 +27,7 @@ import {
   Traceworks,
   threejs,
 } from "../assets";
-import { ashwinSir, realEstateApp } from "../assets";
+import { ashwinSir, realEstateApp,pythonTutor } from "../assets";
 
 export const navLinks = [
   {
@@ -186,7 +186,7 @@ const testimonials = [
 const projects = [
   {
     name: "Real Estate App",
-    liveLink:"https://real-estate-app-beta-six.vercel.app/",
+    liveLink: "https://real-estate-app-beta-six.vercel.app/",
     description:
       "The Real Estate App streamlines property transactions by allowing users to browse listings, post properties, and connect with owners via real-time chat, offering a seamless experience powered by modern web technologies like React and Node.js.",
     tags: [
@@ -207,8 +207,30 @@ const projects = [
     source_code_link: "https://github.com/Thakur-Aditya/real-estate-app",
   },
   {
+    name: "Python Tutor Application",
+    liveLink: "https://skc-aditya-singh.vercel.app/",
+    description:
+      "I built a Python tutor application with beginner, intermediate, and advanced levels. It features an AI assistant that helps users when they get stuck, providing real-time explanations for a smoother learning experience.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pythonTutor,
+    source_code_link: "https://github.com/Thakur-Aditya/skc-aditya-singh",
+  },
+  {
     name: "3D Animated Portfolio",
-    liveLink:"https://www.thakuraditya.in/",
+    liveLink: "https://www.thakuraditya.in/",
 
     description:
       "My portfolio website is built with React, featuring immersive 3D visuals powered by Three.js and smooth animations using Framer Motion, showcasing modern web development skills.",

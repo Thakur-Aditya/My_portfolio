@@ -35,8 +35,10 @@ import ashwinSir from "./Ashwin Sir.png";
 import realEstateApp from "./realEstateApp.png";
 import AnimatedPortfolio from "./3dAnimatedPortfolio.png";
 import latestResume from "./adityaSinghResumeJan2025.pdf";
+import pythonTutor from "./pythonTutor.png"
 
 export {
+  pythonTutor,
   latestResume,
   aditya_logo,
   AnimatedPortfolio,
