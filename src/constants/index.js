@@ -233,7 +233,7 @@ const projects = [
     liveLink: "https://www.thakuraditya.in/",
 
     description:
-      "My portfolio website is built with React, featuring immersive 3D visuals powered by Three.js and smooth animations using Framer Motion, showcasing modern web development skills.",
+      "My portfolio website is built with React, featuring immersive 3D visuals powered by Three.js and smooth animations using Framer Motion, showcasing modern web development skills. ",
     tags: [
       {
         name: "react",
